@@ -1,0 +1,459 @@
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+.btn-envia:hover{
+    background: #9C04ED;
+}
+
+.btn-envia:disabled{
+    background: #D0B7DE;
+}
+
+.btn-menos:hover, .btn-mais:hover{
+    background: #9C04ED;
+}
+
+.pagina{
+
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+
+    position: relative;
+    width: 1280px;
+    height: 2508px;
+
+    background: #FFFFFF;
+}
+
+.imagem-01{
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 680px;
+    top: 152px;
+
+    background: url(../img/imagem-01.png);
+    background-size: cover;
+}
+
+.imagem-02{
+    /* imagem-02 */
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 680px;
+    top: 185px;
+    
+    background: url(../img/imagem-02.png);
+    background-size: cover;
+}
+
+.imagem-04{
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 20px;
+    top: 201px;
+
+    background: url(../img/imagem-04.png);
+    background-size: cover;
+}
+
+
+.nome-completo{
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    left: 112px;
+    top: 201px;
+
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.e-mail{
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    left: 112px;
+    top: 344px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+
+.input-nome{
+
+    position: absolute;
+    width: 415px;
+    height: 65px;
+    left: 112px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-funcionarios{
+    position: absolute;
+    width: 68px;
+    height: 35px;
+    left: 178px;
+    top: 722px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.input-mail{
+
+    position: absolute;
+    width: 415px;
+    height: 65px;
+    left: 112px;
+    top: 393px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.onde-nos-conheceu{
+    position: absolute;
+    width: 213px;
+    height: 30px;
+    left: 112px;
+    top: 489px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+
+.opcao-google{
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 112px;
+    top: 539px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+    }
+
+.opcao-redes-sociais{
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 112px;
+    top: 581px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.opcao-indicacao{
+
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 112px;
+    top: 623px;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.txt-google{
+
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 154px;
+    top: 535px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.txt-redes-sociais{
+
+    position: absolute;
+    width: 139px;
+    height: 30px;
+    left: 154px;
+    top: 577px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+ }
+
+ .txt-indicacao{
+
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 154px;
+    top: 619px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.quant-func{
+    position: absolute;
+    width: 249px;
+    height: 30px;
+    left: 112px;
+    top: 675px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.btn-mais{
+
+    position: absolute;
+    width: 52px;
+    height: 41px;
+    left: 266px;
+    top: 722px;
+    
+    background: #8701CF;
+    border-radius: 4px;
+}
+
+.btn-menos{
+
+    position: absolute;
+    width: 52px;
+    height: 41px;
+    left: 112px;
+    top: 722px;
+
+    background: #8701CF;
+    border-radius: 4px;
+}
+
+.btn-envia{
+
+    position: absolute;
+    width: 417px;
+    height: 65px;
+    left: 112px;
+    top: 795px;
+
+    background: #8701CF;
+    border-radius: 5px;
+}
+
+.enviar{
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 928px;
+top: 2413px;
+
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+.container-01{
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+
+    background: #8701CF;
+}
+
+.container-02{
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 800px;
+    
+    background: #FF7B29;
+}
+
+.container-03{
+
+    position: absolute;
+    width: 640px;
+    height: 908px;
+    left: 0px;
+    top: 1600px;
+    
+    background: #8701CF;
+}
+    
+.container-04{
+    position: absolute;
+    width: 640px;
+    height: 908px;
+    left: 640px;
+    top: 1600px;
+    
+    background: #FF7B29;
+}
+
+.titulo-01{
+    position: absolute;
+    width: 799px;
+    height: 120px;
+    left: 71px;
+    top: 124px;
+
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.titulo-02{
+    position: absolute;
+    width: 1086px;
+    height: 120px;
+    left: 72px;
+    top: 88px;
+    
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+
+.p-1{
+    position: absolute;
+    width: 644px;
+    height: 135px;
+    left: 72px;
+    top: 367px;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+.p-2{
+    position: absolute;
+    width: 720px;
+    height: 270px;
+    left: 72px;
+    top: 367px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+}
+
+.p-3{
+    position: absolute;
+    width: 332px;
+    height: 90px;
+    left: 172px;
+    top: 58px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+}
+
+.p-4{
+    position: absolute;
+    width: 412px;
+    height: 90px;
+    left: 112px;
+    top: 58px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.logo{
+
+position: absolute;
+width: 140px;
+height: 59.17px;
+left: 76px;
+top: 29px;
+
+background: url(../img/Logo.png);
+background-size: cover;
+}
+
+
+
+

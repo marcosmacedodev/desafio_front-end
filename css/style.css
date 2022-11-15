@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+.pagina{
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    width: 1280px;
+    height: 2508px;
+    background: #FFFFFF;
+}
+
+.input-padrao{
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-funcionarios{
+    width: 68px;
+    height: 41px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.btn-range{
+    width: 52px;
+    height: 41px;
+    background: #8701CF;
+    border-radius: 4px;
+}
+
+.mensagem_sucesso{
+    padding: 20px;
+    background: #DFDFDF;
+    color: #3EA90B;
+}
+.btn-range:hover{
+    background: #9C04ED;
+}
+
+.btn-envia{
+    height: 65px;
+    background: #8701CF;
+    border-radius: 5px;
+}
+
+.btn-envia:hover{
+    background: #9C04ED;
+}
+
+.btn-envia:disabled{
+    background: #D0B7DE;
+}
+
+.container-roxo
+{
+    color: #FFFFFF;
+    background: #8701CF;
+}
+
+.container-laranja
+{
+    color: #FFFFFF;
+    background: #FF7B29;
+}
+
+.titulo{
+
+    margin-left: 16px;
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+}
+
+.paragrafo{
+
+    padding-top: 15px;
+    padding: 16px;
+}
+
+.logo{
+    margin-top: 29px;
+    margin-left: 16px;
+    margin-bottom: 29px;
+    width: 140px;
+    height: 59.17px;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+      
+        width: 600px;
+        height: 600px;
+    }
+
+    h1{
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 120px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    img {
+      
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+  }

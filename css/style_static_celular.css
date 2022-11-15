@@ -1,0 +1,438 @@
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+.pagina{
+
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+
+    position: relative;
+    width: 375px;
+    height: 3324px;
+
+    background: #FFFFFF;
+}
+
+.imagem-01{
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 63px;
+    top: 521px;
+
+    background: url(../img/imagem-01.png);
+    background-size: cover;
+}
+
+.imagem-02{
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 76px;
+    top: 698px;
+    
+    background: url(../img/imagem-02.png);
+    background-size: cover;
+}
+
+.imagem-04{
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 63px;
+    top: 199px;
+
+    background: url(../img/imagem-04.png);
+    background-size: cover;
+}
+
+
+.nome-completo{
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    left: 28px;
+    top: 255px;
+
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.e-mail{
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    left: 28px;
+    top: 398px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+
+.input-nome{
+
+    position: absolute;
+    width: 321px;
+    height: 65px;
+    left: 27px;
+    top: 304px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-funcionarios{
+    position: absolute;
+    width: 68px;
+    height: 37px;
+    left: 95px;
+    top: 784px;
+    
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.input-mail{
+
+    position: absolute;
+    width: 321px;
+    height: 65px;
+    left: 28px;
+    top: 447px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.onde-nos-conheceu{
+    position: absolute;
+    width: 213px;
+    height: 30px;
+    left: 28px;
+    top: 551px;
+    
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.opcao-google{
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 28px;
+    top: 601px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.opcao-redes-sociais{
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 28px;
+    top: 643px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.opcao-indicacao{
+
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 28px;
+    top: 685px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.txt-google{
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 69px;
+    top: 597px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.txt-redes-sociais{
+    position: absolute;
+    width: 139px;
+    height: 30px;
+    left: 69px;
+    top: 639px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    color: #FFFFFF;
+ }
+
+ .txt-indicacao{
+
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 69px;
+    top: 681px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.quant-func{
+    position: absolute;
+    width: 249px;
+    height: 30px;
+    left: 28px;
+    top: 737px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.btn-mais{
+    position: absolute;
+    width: 52px;
+    height: 41px;
+    left: 181px;
+    top: 784px;
+    
+    background: #8701CF;
+    border-radius: 4px;
+}
+
+.btn-menos{
+
+    position: absolute;
+    width: 52px;
+    height: 41px;
+    left: 29px;
+    top: 784px;
+    
+    background: #8701CF;
+    border-radius: 4px;
+}
+
+.btn-envia{
+
+    position: absolute;
+    width: 287px;
+    height: 65px;
+    left: 44px;
+    top: 869px;
+    
+    background: #8701CF;
+    border-radius: 5px;
+}
+
+.enviar{
+
+position: absolute;
+width: 62px;
+height: 30px;
+left: 928px;
+top: 2413px;
+
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+.container-01{
+    position: absolute;
+    width: 375px;
+    height: 820px;
+    left: 0px;
+    top: 0px;
+    
+    background: #8701CF;
+}
+
+.container-02{
+    position: absolute;
+    width: 375px;
+    height: 1036px;
+    left: 0px;
+    top: 820px;
+    
+    background: #FF7B29;
+}
+
+.container-03{
+
+    position: absolute;
+    width: 375px;
+    height: 492px;
+    left: 0px;
+    top: 1856px;
+    
+    background: #8701CF;
+}
+    
+.container-04{
+    position: absolute;
+    width: 376px;
+    height: 976px;
+    left: -1px;
+    top: 2348px;
+    
+    background: #FF7B29;
+}
+
+.titulo-01{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 25px;
+    top: 120px;
+    
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.titulo-02{
+    position: absolute;
+    width: 350px;
+    height: 90px;
+    left: 25px;
+    top: 65px;
+    
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+}
+
+
+.p-1{
+    position: absolute;
+    width: 323px;
+    height: 228px;
+    left: 25px;
+    top: 255px;
+    
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+
+.p-2{
+
+    position: absolute;
+    width: 322px;
+    height: 418px;
+    left: 25px;
+    top: 242px;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+
+.p-3{
+    position: absolute;
+    width: 332px;
+    height: 90px;
+    left: 22px;
+    top: 31px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+}
+
+.p-4{
+    position: absolute;
+    width: 346px;
+    height: 135px;
+    left: 14px;
+    top: 59px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.logo{
+
+    position: absolute;
+    width: 140px;
+    height: 59.17px;
+    left: 25px;
+    top: 29px;
+    
+    background: url(../img/Logo.png);
+    background-size: cover;
+}
+
+
+
+
